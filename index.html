@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebStudio</title>
+  <!-- Normalize -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
+
+  <!-- Google Fonts -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+
+   <!-- HEADER: container  -->
+  <header class="site-header">
+    <div class="container">
+      <!-- Навігація: логотип + меню -->
+      <nav class="nav">
+        <!-- Логотип -->
+        <a class="logo" href="./index.html">WEB<span>Studio</span></a>
+
+        <!-- Меню навігації -->
+        <ul class="menu-nav">
+          <li><a class="nav-link" href="./index.html">Studio</a></li>
+          <li><a class="nav-link" href="#">Portfolio</a></li>
+          <li><a class="nav-link" href="#">Contacts</a></li>
+        </ul>
+      </nav>
+
+      <!-- Контакти винесені в адресу  -->
+      <address class="contacts">
+        <ul>
+          <li><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
+        </ul>
+      </address>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO: секція з фоном,контейнер -->
+    <section class="section hero">
+      <div class="container">
+        <h1 class="hero-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="hero-btn">Order Service</button>
+      </div>
+    </section>
+
+    <!-- SERVICES   -->
+    <section class="section services">
+      <div class="container">
+        <!-- Прихований заголовок  -->
+        <h2 class="visually-hidden">Why Choose Us</h2>
+
+        <!-- Список сервісів -->
+        <ul class="services-list">
+          <li class="service">
+            <h3 class="service-title">Strategy</h3>
+            <p class="service-text">Our goal is to identify the business problem to walk away with the perfect and creative solution.</p>
+          </li>
+          <li class="service">
+            <h3 class="service-title">Punctuality</h3>
+            <p class="service-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
+          </li>
+          <li class="service">
+            <h3 class="service-title">Diligence</h3>
+            <p class="service-text">Research and confirm brands with the strongest digital growth opportunities and minimize risk.</p>
+          </li>
+          <li class="service">
+            <h3 class="service-title">Technologies</h3>
+            <p class="service-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TEAM -->
+    <section class="section team">
+      <div class="container">
+        <h2 class="team-title">Our Team</h2>
+
+        <ul class="team-list">
+          <li class="member">
+            <img src="./images/img_team_card_1.jpg" alt="Mark Guerrero">
+            <h3 class="service-title">Mark Guerrero</h3>
+            <p class="service-text">Product Designer</p>
+          </li>
+          <li class="member">
+            <img src="./images/img_team_card_2.jpg" alt="Tom Ford">
+            <h3 class="service-title">Tom Ford</h3>
+            <p class="service-text">Frontend Developer</p>
+          </li>
+          <li class="member">
+            <img src="./images/img_team_card_3.jpg" alt="Camila Garcia">
+            <h3 class="service-title">Camila Garcia</h3>
+            <p class="service-text">Marketing</p>
+          </li>
+          <li class="member">
+            <img src="./images/img_team_card_4.jpg" alt="Daniel Wilson">
+            <h3 class="service-title">Daniel Wilson</h3>
+            <p class="service-text">UI Designer</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="section portfolio">
+      <div class="container">
+        <h2 class="team-title">Our Portfolio</h2>
+
+        <ul class="portfolio-list">
+          <li class="portfolio-item">
+            <img src="./images/img_portfolio_card_1.jpg" alt="Banking App">
+            <h3 class="service-title">Banking App</h3>
+            <p class="service-text">App</p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/img_portfolio_card_2.jpg" alt="Cashless Payment">
+            <h3 class="service-title">Cashless Payment</h3>
+            <p class="service-text">Marketing</p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/img_portfolio_card_3.jpg" alt="Meditation App">
+            <h3 class="service-title">Meditation App</h3>
+            <p class="service-text">App</p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/img_portfolio_card_4.jpg" alt="Taxi Service">
+            <h3 class="service-title">Taxi Service</h3>
+            <p class="service-text">Marketing</p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/img_portfolio_card_5.jpg" alt="Screen Illustrations">
+            <h3 class="service-title">Screen Illustrations</h3>
+            <p class="service-text">Design</p>
+          </li>
+          <li class="portfolio-item">
+            <img src="./images/img_portfolio_card_6.jpg" alt="Online Courses">
+            <h3 class="service-title">Online Courses</h3>
+            <p class="service-text">Marketing</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <a class="logo" href="./index.html">WEB<span class="logo-span">Studio</span></a>
+      <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

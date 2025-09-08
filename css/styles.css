@@ -43,7 +43,7 @@ a:hover, a:focus {
 /* CONTAINER */
 
 .container {
-  max-width: 1158px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding: 0 15px;
@@ -290,7 +290,7 @@ a:hover, a:focus {
   padding: 100px 0; 
 }
 
-.footer .footer-logo{
+.footer-logo{
   display: inline-block;
   margin-bottom: 16px; 
 }

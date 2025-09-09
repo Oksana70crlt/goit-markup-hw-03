@@ -1,5 +1,5 @@
-/* GLOBAL RESET  */
-
+/* GLOBAL RESET  
+----------------*/
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -40,8 +40,8 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 
-/* CONTAINER */
-
+/* CONTAINER 
+---------------*/
 .container {
   width: 1158px;
   margin-left: auto;
@@ -50,16 +50,15 @@ a:hover, a:focus {
   box-sizing: border-box;
 }
 
-/* SECTION */
-
+/* SECTION 
+--------------*/
 .section {  
   padding-top: 120px;
   padding-bottom: 120px;
   margin: 0;
 }
 
-/* visually-hidden (B16)*/
-
+/* visually-hidden*/
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -73,10 +72,9 @@ a:hover, a:focus {
   overflow: hidden;
 }
 
-/* HEADER  */
-
-.site-header {
-             
+/* HEADER  
+------------*/
+.site-header {             
   background-color: #ffffff; 
   border-bottom: 1px solid #e7e9fc 
 }
@@ -98,7 +96,7 @@ a:hover, a:focus {
   padding-bottom: 20px;
 }
 
-/* Логотип */
+/* логотип */
 .logo {
   font-family: "Raleway", sans-serif;
   line-height: 1.17;
@@ -109,11 +107,12 @@ a:hover, a:focus {
   font-size: 18px;
   margin-right: 76px 
 }
+
 .logo span {
   color: #2e2f42;
 }
 
-/* Меню навігації */
+/* меню навігації */
 .menu-nav {
   display: flex;
   gap: 40px;
@@ -128,7 +127,7 @@ a:hover, a:focus {
   padding: 24px 0; 
 }
 
-/* Контакти в header  */
+/* контакти в header*/
 .contacts {
   font-style: normal;
   margin-top: 8px;
@@ -141,7 +140,6 @@ a:hover, a:focus {
   align-items: center;
 }
 
-
 .contacts-link {
   font-size: 16px;
   line-height: 1.5;
@@ -149,8 +147,8 @@ a:hover, a:focus {
   color: #434455;
 }
 
-/* HERO*/
-
+/* HERO
+----------*/
 .hero {
   background-color: #2e2f42;
   color: #fff;
@@ -166,7 +164,7 @@ a:hover, a:focus {
   gap: 24px;
 }
 
-/* Заголовок */
+/* заголовок */
 .hero-title {
   font-size: 56px;
   line-height: 1.07;
@@ -174,7 +172,7 @@ a:hover, a:focus {
   max-width: 496px;
 }
 
-/* Кнопка */
+/* кнопка */
 .hero-btn {
   cursor: pointer;
   font-weight: 500;
@@ -188,13 +186,14 @@ a:hover, a:focus {
   height: 56px;
   min-width: 169px;
 }
+
 .hero-btn:hover,
 .hero-btn:focus {
   background-color: #404BBF;
 }
 
-/*  SERVICES */
-
+/*  SERVICES 
+---------------*/
 .services-list {
   display: flex;
   gap: 24px; 
@@ -202,7 +201,6 @@ a:hover, a:focus {
   flex-wrap: wrap;
   margin-top: 32px;
 }
-
 
 .service {
   width: calc((100% - 72px) / 4); /* 4 items, 3 gaps * 24px = 72px */
@@ -217,14 +215,15 @@ a:hover, a:focus {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+
 .service-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
-/* TEAM */
-
+/* TEAM 
+------------*/
 .team-title {
   font-size: 36px;
   font-weight: 700;
@@ -244,7 +243,6 @@ a:hover, a:focus {
   align-items: stretch;
 }
 
-
 .member {
    width: calc((100% - 72px) / 4); /* 4 items, 3 gaps * 24px = 72px */
   text-align: center;
@@ -258,8 +256,8 @@ a:hover, a:focus {
   padding: 32px 0;
 }
 
-/* PORTFOLIO */
-
+/* PORTFOLIO 
+-------------*/
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
@@ -282,8 +280,8 @@ a:hover, a:focus {
   border-top: none;
 }
 
-/* FOOTER */
-
+/* FOOTER 
+----------*/
 .footer {
   background-color: #2e2f42;
   color: #f4f4fd;
@@ -296,8 +294,8 @@ a:hover, a:focus {
 }
 
 .footer .container {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   gap: 12px;
   text-align: left;
 }
